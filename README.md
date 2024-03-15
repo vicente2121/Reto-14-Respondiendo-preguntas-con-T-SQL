@@ -12,6 +12,7 @@ Este repositorio contiene ejemplos de consultas en T-SQL utilizadas para respond
 ## Consultas T-SQL
 
 ### 1. Precio Medio del Gasoil de Grado 2 en Todas las Provincias
+![1](https://github.com/vicente2121/Reto-14-Respondiendo-preguntas-con-T-SQL/assets/72566296/3feca07a-4164-42ac-91af-e13a6e31c3ab)
 
 Para calcular el precio medio del gasoil de grado 2 en todas las provincias, utilizamos la siguiente consulta:
 
@@ -25,6 +26,8 @@ LEFT JOIN Dim_Ubicacion AS c
 ON b.Id_Ubicacion = c.Id_Ubicacion
 
 ### 2. Empresa con Mayores Ventas Totales por Ciudad
+![2](https://github.com/vicente2121/Reto-14-Respondiendo-preguntas-con-T-SQL/assets/72566296/913543fd-8a4a-4f88-a3ea-3a3823e2bec2)
+
 Para identificar la empresa con mayores ventas totales por ciudad, utilizamos la siguiente consulta:
 
 -- Consulta para identificar la empresa con mayores ventas totales por ciudad
@@ -41,6 +44,8 @@ FROM (
 ) AS d
 WHERE d.Posicion = 1 AND d.Provincia IS NOT NULL
 ### 3. Variación de Precio de Petrol Premium - 95 Octanos
+![3](https://github.com/vicente2121/Reto-14-Respondiendo-preguntas-con-T-SQL/assets/72566296/28dc35e9-9e9b-4b03-926f-ce6d0f346d2e)
+
 Para analizar la variación de precios de Petrol Premium - 95 Octanos entre septiembre de 2022 y octubre de 2023, utilizamos la siguiente consulta:
 
 sql
