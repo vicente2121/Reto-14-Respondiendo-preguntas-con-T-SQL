@@ -1,0 +1,1 @@
+# Reto-14-Respondiendo-preguntas-con-T-SQL
